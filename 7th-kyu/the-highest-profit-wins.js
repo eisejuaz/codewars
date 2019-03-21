@@ -15,4 +15,18 @@
 // All arrays or lists will always have at least one element, so you don't need to check the length. Also, your function will always get an array or a list, you don't have to check for null, undefined or similar.
 
 
-console.log("primer commit");
+// ES5
+
+// function minMax(arr){
+//     return [Math.min(...arr), Math.max(...arr)]; // fix me!
+//   }
+
+// ES6
+
+const minMax = ([arr]) => [Math.min(...arr), Math.max(...arr)];
+
+// tests
+
+minMax([1,2,3,4,5]);
+minMax([2334454,5]);
+minMax([1]);
