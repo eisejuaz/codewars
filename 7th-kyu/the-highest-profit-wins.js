@@ -23,13 +23,15 @@
 
 // ES6
 
-const minMax = (arr) => [Math.min(...arr), Math.max(...arr)];
+const minMax = arr => [Math.min(...arr), Math.max(...arr)];
 
 // tests
 
 minMax([1,2,3,4,5]);
 minMax([2334454,5]);
 minMax([1]);
+
+
 
 // sample tests
 
